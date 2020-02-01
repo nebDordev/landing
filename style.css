@@ -1,0 +1,56 @@
+body,
+html{
+	width:100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(auckland.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+}
+h1{
+	padding: 0rem 0rem 2rem 0rem; 
+	margin: 5rem;
+	/*text-align: center;*/
+	/* Could be done by class="text-center" into the html tag. */
+	color: white;
+	border-bottom: 2px solid pink;
+}
+span{
+	color: #f2c2c3;
+}
+#auc{
+	display: inline-block;
+	color: rgb(245, 144, 178);
+}
+
+
+.buffer{
+	height: 50px;
+	font-weight: bold;
+}
+
+
+hr{
+	border-color: #09eb89;   /* BORDER-COLOR */
+	border-width: 3px;
+	max-width: 65px;
+}
+.btn{
+	font-weight: 700;
+	border-radius:300px;
+}
+.btn-primary{
+	background-color: #09eb89;
+	border-color: #14cc7c;   /* BORDER-COLOR */
+	border-width: 2px;
+}
+.btn-primary:hover{
+	background-color: #53e0ed;
+	border-color: : #5ac7d1;
+	border-width: 4px;
+}
+.mybtn{
+	padding: 1em 2em;
+}
